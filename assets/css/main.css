@@ -1655,7 +1655,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			background-color: #B38A85;
 		}
 
 		input[type="button"].large,
@@ -1672,8 +1672,8 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
-			color: #fff;
+			background: #B38A85 url("images/overlay.png");
+			color: #F8F8F8;
 		}
 
 			input[type="button"].style1:hover,
@@ -1681,7 +1681,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #B38A85;
 			}
 
 			input[type="button"].style1:active,
@@ -1689,7 +1689,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #B38A85;
 			}
 
 		input[type="button"].style2,
@@ -1850,7 +1850,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: #F8F8F8 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2002,14 +2002,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
-			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
+			background: #B38A85 url("images/overlay.png");
+			color: #F8F8F8;
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
-				color: #fff;
+				background: #B38A85 url("images/overlay.png");
+				color: #F8F8F8;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
@@ -2022,7 +2021,7 @@ input, select, textarea {
 
 			.wrapper.style2 .title {
 				background: #fff;
-				color: #484d55;
+				color: #B38A85;
 			}
 
 		.wrapper.style3 {
@@ -2031,7 +2030,7 @@ input, select, textarea {
 
 			.wrapper.style3 .title {
 				background: #f3f3f3 url("images/overlay.png");
-				color: #484d55;
+				color: #B38A85;
 			}
 
 			.wrapper.style3 .image {
@@ -2137,14 +2136,14 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #eee;
-					color: rgba(255, 255, 255, 0.75);
+					color: #604541;
+					font-weight: bold;
 					text-transform: uppercase;
 					text-decoration: none;
-					font-size: 0.7em;
+					font-size: 0.9em;
 					letter-spacing: 0.25em;
-					height: 5em;
-					line-height: 5em;
+					height: 5.2em;
+					line-height: 4em;
 					-moz-transition: all .25s ease-in-out;
 					-webkit-transition: all .25s ease-in-out;
 					-o-transition: all .25s ease-in-out;
@@ -2154,11 +2153,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					color: #B38A85;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
-					color: #fff;
+					color: #B38A85;
 				}
 
 	.dropotron {
@@ -2261,7 +2260,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #B38A85;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2272,19 +2271,18 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #282b34 url("images/overlay.png");
-		color: #eee;
+		background: #B38A85 url("images/overlay.png");
+		color: #F8F8F8;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
-			color: #fff;
+			color: #F8F8F8;
 		}
 
 		#footer hr {
-			border-top-color: #333;
-			border-top-color: rgba(255, 255, 255, 0.05);
+			border-top-color: #B38A85;
 		}
 
 		#footer form input[type="text"],
@@ -2339,8 +2337,8 @@ input, select, textarea {
 			}
 
 		#footer .title {
-			background: #282b34 url("images/overlay.png");
-			color: #eee;
+			background: #B38A85 url("images/overlay.png");
+			color: #F8F8F8;
 		}
 
 		#footer header.style1 {
@@ -2597,6 +2595,7 @@ input, select, textarea {
 				width: 100%;
 				z-index: 10001;
 				background: none;
+				
 			}
 
 				#titleBar .title {
@@ -2641,8 +2640,8 @@ input, select, textarea {
 						height: 38px;
 						line-height: 38px;
 						text-align: center;
-						color: rgba(255, 255, 255, 0.75);
-						background-color: rgba(92, 95, 103, 0.5);
+						color: #F8F8F8;
+						background-color: #B38A85;
 						border-radius: 0.25em;
 					}
 
@@ -2671,13 +2670,13 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #242730 url("images/overlay.png");
+				background: #B38A85 url("images/overlay.png");
 				box-shadow: inset -3px 0px 4px 0px rgba(0, 0, 0, 0.1);
 			}
 
 				#navPanel .link {
 					display: block;
-					color: rgba(255, 255, 255, 0.5);
+					color: #F8F8F8;
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.85em;
@@ -2719,7 +2718,7 @@ input, select, textarea {
 				}
 
 				#navPanel .depth-0 {
-					color: #fff;
+					color: #F8F8F8;
 				}
 
 			body.navPanel-visible #page-wrapper {
